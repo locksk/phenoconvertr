@@ -1,0 +1,26 @@
+Package: phenoconverter
+Type: Package
+Title: Convert Activity Scores Into Phenoconversion Corrected Activity Scores
+Version: 0.1.0
+Authors@R: 
+    c(person("Siobhan", "Lock",
+              role = c("aut", "cre"),
+              email = "locksk@cardiff.ac.uk",
+              comment = c(ORCID = "0009-0003-8574-8391")))
+Maintainer: Siobhan <locksk@cardiff.ac.uk>
+Description: A package to convert activity scores into phenocovnersion-corrected activity scores to account for the roles of inhibitors and induces on pharamcogenomically-inferred enzyme activity. 
+    Inducer/Inhibtior information derived from the World Health Organisation.
+    Currently works on - CYP1A2, CYP2D6, CYP2C19, CYP2C9, CYP3A4, CYP3A5.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.1)
+LazyData: true
+Imports: 
+    dplyr,
+    tidyr,
+    rvest,
+    emojifont,
+    stringr,
+    wakefield,
+    stats
+RoxygenNote: 7.2.3
