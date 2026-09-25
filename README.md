@@ -21,9 +21,9 @@ Use at your own risk.
 `phenoconverter` aims to provide a transparent and reproducible method for converting activity scores to phenoconversion-corrected activity scores for CYP1A2, CYP2C19, CYP2C9, CYP2D6, CYP3A4, and CYP3A5. Reference data was obtained from the [FDA](https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems), which has information on inhibitors and inducers for a range of CYP-family enzymes. 
 
 ## Installation
-        `# please note differences between repository name and package name`
-        `devtools::install_github("locksk/phenoconvertr")`
-        `library(phenoconverter)`
+        # please note differences between repository name and package name
+        devtools::install_github("locksk/phenoconvertr")
+        library(phenoconverter)
 
 ## Example use
         test <- phenoconverter::test_data()
